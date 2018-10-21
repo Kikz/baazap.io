@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="28px" height="19px" viewBox="0 0 28 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
+    <title>peru-flag</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Busqueda-Baazup-con-Numeracion" transform="translate(-136.000000, -266.000000)">
+            <g id="Group-3" transform="translate(36.000000, 123.000000)">
+                <g id="Group-Copy-2" transform="translate(0.000000, 128.000000)">
+                    <g id="peru-flag" transform="translate(100.000000, 15.000000)">
+                        <path d="M9.11112891,18.9842232 L0.471286458,18.9842232 C0.211032552,18.9842232 0,18.7606905 0,18.4850208 L0,0.514583333 C0,0.23891369 0.211032552,0.0153809524 0.471286458,0.0153809524 L9.11112891,0.0153809524 L9.11112891,18.9842232 L9.11112891,18.9842232 Z" id="Shape" fill="#FF4B55"></path>
+                        <rect id="Rectangle-path" fill="#F5F5F5" x="9.11128906" y="0.0156636905" width="9.11128906" height="18.9688988"></rect>
+                        <path d="M26.8620469,18.9842232 L18.2222044,18.9842232 L18.2222044,0.0154375 L26.8620469,0.0154375 C27.1223008,0.0154375 27.3333333,0.238970238 27.3333333,0.514639881 L27.3333333,18.4850774 C27.3333333,18.7608036 27.1223008,18.9842232 26.8620469,18.9842232 L26.8620469,18.9842232 Z" id="Shape" fill="#FF4B55"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

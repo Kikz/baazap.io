@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Baazap</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:400,500,700,900">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="container">
+
+    <div class="logoContainerHome">
+      <img src="imgs/logo-baazap.png" alt="logo baazap" />
+    </div>
+
+    <!--OverlayBuscador-->
+    <div class="buscadorOverlay"></div>
+
+    <div class="searchbarContainer">
+      <input id="inputBuscador" type="search" placeholder="Buscar" />
+      <img class="searchIcon" src="imgs/search-icon.svg" alt="icono de busqueda" />
+    </div>
+
+    <div class="tagsBuscadorContainer">
+      <div class="tagCategoria tagOne">
+        <img class="tagIcon" src="imgs/add-icon.svg" alt="Icono de añadir">
+        <span>Perfumeria</span>
+        <span class="numeroCategoria">72</span>
+      </div>
+      <div class="tagProducto tagTwo">
+        <img class="tagIcon" src="imgs/add-icon.svg" alt="Icono de añadir">
+        <span>Perrier Agua</span>
+      </div>
+      <div class="tagPais tagThree">
+        <img class="tagIcon" src="imgs/add-icon.svg" alt="Icono de añadir">
+        <span>Peru</span>
+        <img class="banderaTag" src="imgs/peru-flag.svg" alt="Icono de añadir">
+      </div>
+      <div class="tagProducto tagFour">
+        <img  class="tagIcon" src="imgs/add-icon.svg" alt="Icono de añadir">
+        <span>Don Perignon Champagne</span>
+      </div>
+      <div class="tagProducto tagFive">
+        <img class="tagIcon" src="imgs/add-icon.svg" alt="Icono de añadir">
+        <span>Persil Detergente</span>
+      </div>
+    </div>
+
+    <div class="resultadosButtonContainer">
+      <div class="textoResultados"><span>73 </span>resultados</div>
+      <div class="resultadosButton">
+        <img src="imgs/arrow-icon.svg" alt="Icono flecha"/>
+      </div>
+    </div>
+    <!-- !OverlayBuscador -->
+
+
+    <div class="textoDescripcion">
+      <p>Busca productos por nombre categoria o pais.</p>
+      <p>Baazap te ayuda a encontrar el orgien de lo que comes.</p>
+    </div>
+
+    <div id="containerProfile" class="containerProfile">
+      <div class="profileButtonContainer">
+        <div id="profileButton" class="profileButton">
+          <img src="imgs/profile-icon.svg" alt="Icono Perfil" />
+        </div>
+        <div class="profileOptionsContainer">
+          <div class="loginButton">Login</div>
+          <div class="lineaSeparador"></div>
+          <div class="signupButton">Sign Up</div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenLite.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/plugins/CSSPlugin.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/easing/EasePack.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TimelineMax.min.js"></script>
+  <script src="app.js"></script>
+</body>
