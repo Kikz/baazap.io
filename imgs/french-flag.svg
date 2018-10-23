@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="22px" height="14px" viewBox="0 0 22 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
+    <title>french-flag</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Tarjeta-Baazup" transform="translate(-233.000000, -306.000000)">
+            <g id="Group-6" transform="translate(20.000000, 303.000000)">
+                <g id="french-flag" transform="translate(213.000000, 3.000000)">
+                    <path d="M7.12282093,13.988375 L0.368438322,13.988375 C0.164979235,13.988375 0,13.8236667 0,13.6205417 L0,0.379166667 C0,0.176041667 0.164979235,0.0113333333 0.368438322,0.0113333333 L7.12282093,0.0113333333 L7.12282093,13.988375 L7.12282093,13.988375 Z" id="Shape" fill="#41479B"></path>
+                    <rect id="Rectangle-path" fill="#F5F5F5" x="7.12294613" y="0.0115416667" width="7.12294613" height="13.9770833"></rect>
+                    <path d="M20.9999827,13.988375 L14.2456001,13.988375 L14.2456001,0.011375 L20.9999827,0.011375 C21.2034418,0.011375 21.3684211,0.176083333 21.3684211,0.379208333 L21.3684211,13.6205833 C21.3684211,13.82375 21.2034418,13.988375 20.9999827,13.988375 L20.9999827,13.988375 Z" id="Shape" fill="#FF4B55"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
