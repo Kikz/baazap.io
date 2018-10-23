@@ -51,7 +51,7 @@ input[type=search]::-webkit-search-results-decoration {
 
 .searchbarContainer {
   position: relative;
-  z-index: 200;
+  z-index: 500;
   top: 0;
   margin: 15.592vh 9.6vw 0;
   width: 80.8vw;
@@ -71,6 +71,7 @@ input[type=search]::-webkit-search-results-decoration {
   outline: none;
   color: #242F3A;
   caret-color: #48AEA7;
+  border-width: 0px;
 }
 .searchbarContainer .searchIcon {
   position: absolute;
@@ -245,6 +246,146 @@ input[type=search]::-webkit-search-results-decoration {
   position: absolute;
   top: 19px;
   left: 24px;
+}
+
+/*====RESULTADOS=====*/
+/*===================*/
+.headerContainer {
+  position: relative;
+  padding-top: 3.598vh;
+  padding-bottom: 2.998vh;
+  width: 80.8vw;
+  height: 50px;
+  margin: 0 auto;
+  background: #48AEA7;
+}
+.headerContainer .logoHeader {
+  display: inline-block;
+  width: 123px;
+  transform: translateY(5px);
+}
+.headerContainer .profileButton {
+  position: absolute;
+  right: 65px;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background: #FFF;
+  border-radius: 50%;
+}
+.headerContainer .profileButton img {
+  position: absolute;
+  left: 16px;
+  top: 15px;
+}
+.headerContainer .searchButton {
+  position: absolute;
+  right: 0;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background: #FFF;
+  border-radius: 50%;
+}
+.headerContainer .searchButton img {
+  position: absolute;
+  left: 17px;
+  top: 17px;
+}
+
+.resultadosContainer {
+  width: 80.8vw;
+  min-height: 81.259vh;
+  margin: 0 auto;
+}
+.resultadosContainer .textoResultados {
+  color: #FFF;
+  font-size: 4.8vw;
+  text-align: center;
+}
+.resultadosContainer .textoResultados span {
+  font-weight: 700;
+  padding-right: 5px;
+}
+.resultadosContainer .tarjetaResultado {
+  box-sizing: border-box;
+  width: 275px;
+  padding: 20px;
+  background: #242F3A;
+  margin: 4vh auto;
+}
+.resultadosContainer .tarjetaResultado .productoContainer {
+  position: relative;
+  width: 235px;
+  height: 235px;
+  background: #FFF;
+}
+.resultadosContainer .tarjetaResultado .productoContainer img {
+  position: absolute;
+  display: block;
+  height: 160px;
+  top: 39px;
+  left: 37px;
+}
+.resultadosContainer .tarjetaResultado .nombreProducto {
+  font-size: 18px;
+  color: #FFF;
+  margin: 15px auto;
+  text-align: center;
+  font-weight: 700;
+}
+.resultadosContainer .tarjetaResultado table {
+  width: 235px;
+  color: #FFF;
+  font-size: 14px;
+  line-height: 20px;
+}
+.resultadosContainer .tarjetaResultado table .primeraColumna {
+  font-weight: 700;
+}
+.resultadosContainer .tarjetaResultado table .segundaColumna {
+  text-align: right;
+}
+.resultadosContainer .tarjetaResultado table .terceraColumna {
+  text-align: right;
+}
+.resultadosContainer .tarjetaResultado table .terceraColumna img {
+  transform: translateY(1px);
+}
+
+.sugerenciasContainer {
+  position: fixed;
+  margin: 0;
+  left: 0;
+  bottom: 0;
+  max-height: 188px;
+  min-width: 100vw;
+  background: #1E6775;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+.sugerenciasContainer .productoSugerenciaContainer {
+  display: inline-block;
+  width: 118px;
+  height: 133px;
+  background: white;
+  margin: 15px 0px 15px 15px;
+}
+.sugerenciasContainer .productoSugerenciaContainer .sugerenciaImagenContainer {
+  width: 100%;
+  height: 108px;
+}
+.sugerenciasContainer .productoSugerenciaContainer .sugerenciaImagenContainer img {
+  height: 75px;
+  margin: 50%;
+  transform: translate(-50%, -60%);
+}
+.sugerenciasContainer .productoSugerenciaContainer .nombreSugerencia {
+  font-size: 10px;
+  text-align: center;
+  width: 97px;
+  margin: 0 auto;
+  overflow-x: hidden;
 }
 
 /*# sourceMappingURL=style.css.map */
