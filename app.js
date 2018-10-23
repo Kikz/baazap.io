@@ -28,28 +28,33 @@ document.querySelector("#inputBuscador").addEventListener("click", function(){
 
 
 // Resultados cambiar estilo una vez clickado
-document.querySelector(".tagCategoria").addEventListener("click", function(){
-  //Aplicar y quitar estilos en toggle
-  //!!!NO FUNCIONA EL TOGGLE
-  //Cambiar img:first-of-type de add-icon a check-icono
-  document.querySelector(".tagIcon").src="imgs/check-icon.svg";
-  //Añadir borde blanco
-  document.querySelector(".tagCategoria").style.border="2px solid #FFF";
-  //Añadir boton de ver resultados
-  document.querySelector(".resultadosButtonContainer").style.display="block";
-});
-
-//Resultados cambiar estilo una vez clickado
-//!!SOLO FUNCIONA EN EL PRIMERO
-document.querySelector(".tagProducto").addEventListener("click", function(){
+function clickCategoria(){
   //Aplicar y quitar estilos en toggle
   //!!!NO FUNCIONA EL TOGGLE
   //Cambiar img:first-of-type de add-icon a check-icono
   this.querySelector(".tagIcon").src="imgs/check-icon.svg";
   //Añadir borde blanco
-  document.querySelector(".tagProducto").style.border="2px solid #FFF";
+  this.style.border="2px solid #FFF";
   //Añadir boton de ver resultados
   document.querySelector(".resultadosButtonContainer").style.display="block";
+}
+document.querySelectorAll(".tagCategoria").forEach( function(elem){
+  elem.addEventListener("click", clickCategoria);
+});
+
+//Resultados cambiar estilo una vez clickado
+function clickProducto(){
+  //Aplicar y quitar estilos en toggle
+  //!!!NO FUNCIONA EL TOGGLE
+  //Cambiar img:first-of-type de add-icon a check-icono
+  this.querySelector(".tagIcon").src="imgs/check-icon.svg";
+  //Añadir borde blanco
+  this.style.border="2px solid #FFF";
+  //Añadir boton de ver resultados
+  document.querySelector(".resultadosButtonContainer").style.display="block";
+}
+document.querySelectorAll(".tagProducto").forEach( function(elem){
+  elem.addEventListener("click", clickProducto);
 });
 
 
