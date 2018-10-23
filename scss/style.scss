@@ -4,7 +4,7 @@
 // 0: Todo
 // 100: ProfileContainer
 // 200: OverlayBuscador
-// 300: Buscador
+// 500: Buscador
 
 
 /*====VARIABLES=====*/
@@ -61,6 +61,7 @@ input[type="search"]::-webkit-search-results-decoration {
   background: $turquesa-baazap;
 }
 
+
 /*====HOME=====*/
 /*=============*/
 
@@ -75,7 +76,7 @@ input[type="search"]::-webkit-search-results-decoration {
 
 .searchbarContainer{
   position: relative;
-  z-index: 200;
+  z-index: 500;
   top: 0; //0 => -37.931vh
   margin: 15.592vh 9.6vw 0;
   width: 80.8vw;
@@ -94,6 +95,7 @@ input[type="search"]::-webkit-search-results-decoration {
     outline: none;
     color: $drk-baazap;
     caret-color: $turquesa-baazap;
+    border-width: 0px;
   }
   .searchIcon{
     position: absolute;
@@ -166,6 +168,7 @@ input[type="search"]::-webkit-search-results-decoration {
     }
   }
 }
+
 
 /*====OVERLAT BUSCADOR TAGS=====*/
 /*==============================*/
@@ -264,6 +267,148 @@ input[type="search"]::-webkit-search-results-decoration {
       position: absolute;
       top: 19px;
       left: 24px;
+    }
+  }
+}
+
+
+/*====RESULTADOS=====*/
+/*===================*/
+
+.headerContainer{
+  position: relative;
+  padding-top: 3.598vh;
+  padding-bottom: 2.998vh;
+  width: 80.8vw;
+  height: 50px;
+  margin: 0 auto;
+  background: $turquesa-baazap;
+  .logoHeader{
+    display: inline-block;
+    width: 123px;
+    transform: translateY(5px);
+  }
+  .profileButton{
+    position: absolute;
+    right: 65px;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background: $blanco;
+    border-radius: 50%;
+    img{
+      position: absolute;
+      left: 16px;
+      top: 15px;
+    }
+  }
+  .searchButton{
+    position: absolute;
+    right: 0;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background: $blanco;
+    border-radius: 50%;
+    img{
+      position: absolute;
+      left: 17px;
+      top: 17px;
+    }
+  }
+}
+
+.resultadosContainer{
+  width: 80.8vw;
+  min-height: 81.259vh;
+  margin: 0 auto;
+  .textoResultados{
+    color: $blanco;
+    font-size: 4.8vw;
+    text-align: center;
+    span{
+      font-weight: 700;
+      padding-right: 5px;
+    }
+  }
+  .tarjetaResultado{
+    box-sizing: border-box;
+    width: 275px;
+    padding: 20px;
+    background: $drk-baazap;
+    margin: 4vh auto; //2.248vh
+    .productoContainer{
+      position: relative;
+      width: 235px;
+      height: 235px;
+      background: $blanco;
+      img{
+        position: absolute;
+        display: block;
+        height: 160px;
+        top: 39px;
+        left: 37px;
+      }
+    }
+    .nombreProducto{
+      font-size: 18px;
+      color: $blanco;
+      margin: 15px auto;
+      text-align: center;
+      font-weight: 700;
+    }
+    table{
+      width: 235px;
+      color: $blanco;
+      font-size: 14px;
+      line-height: 20px;
+      .primeraColumna{
+        font-weight: 700;
+      }
+      .segundaColumna{
+        text-align: right;
+      }
+      .terceraColumna{
+        text-align: right;
+        img{
+          transform: translateY(1px);
+        }
+      }
+    }
+  }
+}
+
+.sugerenciasContainer{
+  position: fixed;
+  margin:0;
+  left: 0;
+  bottom: 0;
+  max-height: 188px;
+  min-width: 100vw;
+  background: $verde-baazap;
+  overflow-y: hidden;
+  white-space: nowrap;
+  .productoSugerenciaContainer{
+    display: inline-block;
+    width: 118px;
+    height: 133px;
+    background: white;
+    margin: 15px 0px 15px 15px;
+    .sugerenciaImagenContainer{
+      width: 100%;
+      height: 108px;
+      img{
+        height: 75px;
+        margin: 50%;
+        transform: translate(-50%, -60%);
+      }
+    }
+    .nombreSugerencia{
+      font-size: 10px;
+      text-align: center;
+      width: 97px;
+      margin: 0 auto;
+      overflow-x: hidden;
     }
   }
 }
