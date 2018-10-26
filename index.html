@@ -6,6 +6,7 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:400,500,700,900">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css" />
   <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/flags/flags.css" />
 </head>
 <body>
   <div class="container">
@@ -13,12 +14,12 @@
     <div class="logoContainerHome">
       <img src="imgs/logo-baazap.png" alt="logo baazap" />
     </div>
-
+	<img id=animate src="imgs/logos/baazup3.svg" width="100px" height="100px" />
     <!--OverlayBuscador-->
     <div class="buscadorOverlay"></div>
 
     <div class="searchbarContainer">
-      <input id="inputBuscador" type="search" placeholder="Buscar" />
+      <input id="inputBuscador" type="search" placeholder="Buscar" oninput="searchTags()"/>
       <img class="searchIcon" src="imgs/search-icon.svg" alt="icono de busqueda" />
     </div>
 
@@ -34,8 +35,15 @@
       </div>
       <div class="tagPais">
         <img class="tagIcon" src="imgs/add-icon.svg" alt="Icono de añadir">
+        <!--<img class="banderaTag" src="imgs/peru-flag.svg" alt="Icono de añadir">-->
         <span>Peru</span>
-        <img class="banderaTag" src="imgs/peru-flag.svg" alt="Icono de añadir">
+        <div class="banderaTag"><img class="flag flag-pe" src="css/flags/blank.gif"></div>
+      </div>
+      <div class="tagPais">
+        <img class="tagIcon" src="imgs/add-icon.svg" alt="Icono de añadir">
+        <!--<img class="banderaTag" src="imgs/peru-flag.svg" alt="Icono de añadir">-->
+        <span>Peru con texto largo para descojonar</span>
+        <div class="banderaTag"><img class="flag flag-pe" src="css/flags/blank.gif"></div>
       </div>
       <div class="tagProducto">
         <img  class="tagIcon" src="imgs/add-icon.svg" alt="Icono de añadir">
@@ -82,4 +90,5 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/easing/EasePack.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TimelineMax.min.js"></script>
   <script src="app.js"></script>
+  <script src="appjan.js"></script>
 </body>
