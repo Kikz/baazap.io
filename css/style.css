@@ -13,16 +13,13 @@ body {
 h1, h2, h3, p {
   margin: 0;
 }
-#animate {
-  position: absolute;
-}
+
 /* clears the 'X' from Internet Explorer */
 input[type=search]::-ms-clear,
 input[type=search]::-ms-reveal {
   display: none;
   width: 0;
   height: 0;
-<<<<<<< HEAD
 }
 
 /* clears the 'X' from Chrome */
@@ -668,8 +665,6 @@ input[type=search]::-webkit-search-results-decoration {
 
 .flag.flag-lc {
   background-position: -432px -336px;
-=======
->>>>>>> d10693fa68f39af7f7c8ae496f8aa214b615dfd9
 }
 
 .flag.flag-uy {
@@ -991,7 +986,7 @@ input[type=search]::-webkit-search-results-decoration {
   top: 0;
   margin: 15.592vh 9.6vw 0;
   width: 80.8vw;
-  height: 7vh;
+  height: 59px;
   border-radius: 2px;
   background: #FFF;
 }
@@ -999,22 +994,22 @@ input[type=search]::-webkit-search-results-decoration {
   color: #242F3A;
 }
 .searchbarContainer input {
-  position: relative;
-  left: 4vw;
+  position: absolute;
+  left: 5.33vw;
   height: 100%;
   font-size: 4.8vw;
-  width: 67vw;
+  width: 61.6vw;
   outline: none;
   color: #242F3A;
   caret-color: #48AEA7;
   border-width: 0px;
 }
 .searchbarContainer .searchIcon {
-  position: relative;
-  top: 1vh;
-  right: -4vw;
-  width: 4vw;
-  height: 4vh;
+  position: absolute;
+  top: 21px;
+  right: 5.33vw;
+  width: 17px;
+  height: 17px;
 }
 
 .textoDescripcion {
@@ -1097,47 +1092,24 @@ input[type=search]::-webkit-search-results-decoration {
   display: none;
   position: absolute;
   z-index: 200;
-  top: calc(13.943vh + 0vh);
+  top: calc(13.943vh + 15px);
   left: 9.6vw;
   width: 80.8vw;
-<<<<<<< HEAD
-<<<<<<< HEAD
   min-height: 69.565vh;
   margin-bottom: 110px;
-=======
-  height: 70vh;
-  //min-height: 69.565vh;
-  overflow:scroll;
->>>>>>> d10693fa68f39af7f7c8ae496f8aa214b615dfd9
-=======
-  height: 70vh;
-  //min-height: 69.565vh;
-  overflow:scroll;
->>>>>>> d10693fa68f39af7f7c8ae496f8aa214b615dfd9
 }
 .tagsBuscadorContainer .tagCategoria,
 .tagsBuscadorContainer .tagProducto,
 .tagsBuscadorContainer .tagPais {
   position: relative;
   display: inline-block;
-<<<<<<< HEAD
-<<<<<<< HEAD
   min-height: 42px;
-=======
-  height: 5vh;
->>>>>>> d10693fa68f39af7f7c8ae496f8aa214b615dfd9
-=======
-  height: 5vh;
->>>>>>> d10693fa68f39af7f7c8ae496f8aa214b615dfd9
   background: #48AEA7;
   border-radius: 8px;
-  //padding: 0 15px;
-  //margin-top: 15px;
+  padding: 0 15px;
+  margin-top: 15px;
   border: 2px solid #48AEA7;
-  overflow: scroll;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
 .tagsBuscadorContainer .tagCategoria .tagIconContainer,
 .tagsBuscadorContainer .tagProducto .tagIconContainer,
 .tagsBuscadorContainer .tagPais .tagIconContainer {
@@ -1151,58 +1123,13 @@ input[type=search]::-webkit-search-results-decoration {
   height: 16px;
   transform: translateY(2px);
   padding-right: 13px;
-=======
-=======
->>>>>>> d10693fa68f39af7f7c8ae496f8aa214b615dfd9
-.tagsBuscadorContainer .tagCategoria img.tagIcon,
-.tagsBuscadorContainer .tagProducto img.tagIcon,
-.tagsBuscadorContainer .tagPais img.tagIcon {
-
-  //width: 4vw;
-  //height: 4vh;
-  transform: translateY(3px) scale(0.8);
-  //padding-right: 13px;
-<<<<<<< HEAD
->>>>>>> d10693fa68f39af7f7c8ae496f8aa214b615dfd9
-=======
->>>>>>> d10693fa68f39af7f7c8ae496f8aa214b615dfd9
 }
 .tagsBuscadorContainer .tagCategoria span,
-.tagsBuscadorContainer .tagProducto span{
-  //padding-left: 4vw;
-  transform: translate(-4px,-4px);
-  height: 4vh;
-  //line-height: 25px;
-  width: 70vw;
-  color: #FFF;
-  //overflow: hidden;
-  //white-space: nowrap;
-  //text-overflow: ellipsis;
-}
-
+.tagsBuscadorContainer .tagProducto span,
 .tagsBuscadorContainer .tagPais span {
-<<<<<<< HEAD
-<<<<<<< HEAD
   height: 42px;
   line-height: 42px;
-=======
-=======
->>>>>>> d10693fa68f39af7f7c8ae496f8aa214b615dfd9
-  //position: absolute;
-  padding-left: 28px;
-  //padding-top: 4vh;
-  transform: translate(-4px,-4px);
-  height: 4vh;
-  //line-height: 25px;
-  width: 70vw;
-<<<<<<< HEAD
->>>>>>> d10693fa68f39af7f7c8ae496f8aa214b615dfd9
-=======
->>>>>>> d10693fa68f39af7f7c8ae496f8aa214b615dfd9
   color: #FFF;
-  overflow: hidden;
-  //white-space: nowrap;
-  //text-overflow: ellipsis;
 }
 .tagsBuscadorContainer .tagCategoria .numeroCategoria,
 .tagsBuscadorContainer .tagProducto .numeroCategoria,
@@ -1214,31 +1141,14 @@ input[type=search]::-webkit-search-results-decoration {
   border-radius: 42px;
 }
 .tagsBuscadorContainer .tagProducto span {
-  //padding-right: 15px;
+  padding-right: 15px;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
 .tagsBuscadorContainer .tagPais .banderaTag {
   width: 29px;
   height: 19px;
   transform: translateY(5px);
   padding-left: 15px;
   padding-right: 0px;
-=======
-=======
->>>>>>> d10693fa68f39af7f7c8ae496f8aa214b615dfd9
-.tagsBuscadorContainer .tagPais div.banderaTag {
-  //max-height:24px;
-  //position: absolute;
-  //padding-top: 0px;
-  //padding-left: 0px;
-  //transform: translateY(-4px);
-  //padding-left: 15px;
-  //padding-right: 0px;
-<<<<<<< HEAD
->>>>>>> d10693fa68f39af7f7c8ae496f8aa214b615dfd9
-=======
->>>>>>> d10693fa68f39af7f7c8ae496f8aa214b615dfd9
 }
 
 .resultadosButtonContainerBackground {
@@ -1283,16 +1193,6 @@ input[type=search]::-webkit-search-results-decoration {
   left: 24px;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-/*====RESULTADOS=====*/
-/*===================*/
->>>>>>> d10693fa68f39af7f7c8ae496f8aa214b615dfd9
-=======
-/*====RESULTADOS=====*/
-/*===================*/
->>>>>>> d10693fa68f39af7f7c8ae496f8aa214b615dfd9
 .headerContainer {
   position: relative;
   padding-top: 3.598vh;
@@ -1377,33 +1277,6 @@ input[type=search]::-webkit-search-results-decoration {
   text-align: center;
   font-weight: 700;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> d10693fa68f39af7f7c8ae496f8aa214b615dfd9
-.resultadosContainer .tarjetaResultado table {
-  width: 235px;
-  color: #FFF;
-  font-size: 14px;
-  line-height: 20px;
-}
-.resultadosContainer .tarjetaResultado table .primeraColumna {
-  font-weight: 700;
-}
-.resultadosContainer .tarjetaResultado table .segundaColumna {
-  text-align: right;
-}
-.resultadosContainer .tarjetaResultado table .terceraColumna {
-  text-align: right;
-}
-.resultadosContainer .tarjetaResultado table .terceraColumna img {
-  transform: translateY(1px);
-}
-<<<<<<< HEAD
->>>>>>> d10693fa68f39af7f7c8ae496f8aa214b615dfd9
-=======
->>>>>>> d10693fa68f39af7f7c8ae496f8aa214b615dfd9
 
 .sugerenciasContainer {
   position: fixed;
