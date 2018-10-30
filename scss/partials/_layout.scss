@@ -1,0 +1,8 @@
+///////////////////////////////
+// LAYOUT
+///////////////////////////////
+
+.container {
+  @include fullScreen;
+  background: $turquesa-baazap;
+}

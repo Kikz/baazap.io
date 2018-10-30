@@ -1,0 +1,113 @@
+///////////////////////////////
+// HOME
+///////////////////////////////
+
+.logoContainerHome{
+  padding-top: 20.239vh;
+  margin: 0 auto;
+  img{
+    width: 32.8vw;
+    margin-left: calc(50vw - 32.8vw / 2);
+  }
+}
+
+
+///Searchbar///////////
+.searchbarContainer{
+  position: relative;
+  z-index: 500;
+  top: 0; //0 => -37.931vh
+  margin: 15.592vh $big-margin 0;
+  width: $big-width;
+  height: 59px;
+  border-radius: 2px;
+  background: $blanco;
+  input::placeholder{
+    color: $drk-baazap;
+  }
+  input{
+    position: absolute;
+    left: 5.33vw;
+    height: 100%;
+    font-size: 4.8vw;
+    width: 61.6vw;
+    outline: none;
+    color: $drk-baazap;
+    caret-color: $turquesa-baazap;
+    border-width: 0px;
+  }
+  .searchIcon{
+    position: absolute;
+    top: 21px;
+    right: 5.33vw;
+    width: 17px;
+    height: 17px;
+  }
+}
+
+
+///Texto Descripcion App///////////
+.textoDescripcion{
+  width: 66.933vw;
+  margin: 2.998vh auto 0;
+  p:first-of-type{
+    margin-top: 0;
+  }
+  p{
+    margin-top: calc(3.466vw / 1.4);
+    color: $blanco;
+    text-align: center;
+    font-size: 3.466vw;
+    line-height: calc(3.466vw * 1.4);
+  }
+}
+
+
+///Boton Profile Signup Login///////////
+.containerProfile{
+  position: fixed;
+  z-index: 100;
+  bottom: -123px; // -123 => -1px
+  width: 100vw;
+  height: 203px;
+  .profileButtonContainer{
+    width: 100vw;
+    height: 80px;
+    .profileButton{
+      position: absolute;
+      right: 9.6vw;
+      width: 53px;
+      height: 53px;
+      border-radius: 50%;
+      background: $blanco;
+      img{
+        position: absolute;
+        top: 16px;
+        left: 18px;
+      }
+    }
+  }
+  .profileOptionsContainer{
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+    height: 123px;
+    border-radius: 4px;
+    background: $blanco;
+    .loginButton,
+    .signupButton{
+      width: 100vw;
+      height: 60px;
+      color: $drk-baazap;
+      text-align: center;
+      line-height: 60px;
+      border-radius: 4px;
+    }
+    .lineaSeparador{
+      width: 84vw;
+      height: 2px;
+      background: $drk-baazap;
+      margin: 0 auto;
+    }
+  }
+}

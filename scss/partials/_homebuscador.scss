@@ -1,0 +1,119 @@
+///////////////////////////////
+// HOME OVERLAY BUSCADOR
+///////////////////////////////
+
+///Overlay Background///////////
+.buscadorOverlay{
+  position: fixed;
+  z-index: 0; //0 => 200
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  @include fullScreen;
+  background: $drk-baazap;
+  opacity: 0; //0 => 0.95
+}
+
+
+///Tags///////////
+.tagsBuscadorContainer{
+  display: none;
+  position: absolute;
+  z-index: 200;
+  top: calc(13.943vh + 15px);
+  left: $big-margin;
+  width: $big-width;
+  min-height: 69.565vh;
+  margin-bottom: 110px;
+  .tagCategoria,
+  .tagProducto,
+  .tagPais{
+    position: relative;
+    display: inline-block;
+    min-height: $tag-height;
+    background: $turquesa-baazap;
+    border-radius: 8px;
+    padding: 0 15px;
+    margin-top: 15px;
+    border: 2px solid $turquesa-baazap;
+    .tagIconContainer{
+      display: inline-block;
+      height: 100%;
+      img{
+        width: 16px;
+        height: 16px;
+        transform: translateY(2px);
+        padding-right: 13px;
+      }
+    }
+    span{
+      height: $tag-height;
+      line-height: $tag-height;
+      color: $blanco;
+    }
+    .numeroCategoria{
+      padding: 0 15px;
+      font-weight: 700;
+    }
+  }
+  .tagProducto{
+    border-radius: $tag-height;
+    span{
+      padding-right: 15px;
+    }
+  }
+  .tagPais{
+    .banderaTag{
+      width: 29px;
+      height: 19px;
+      transform: translateY(5px);
+      padding-left: 15px;
+      padding-right: 0px;
+    }
+  }
+}
+
+
+///Boton resultados & total de productos seleccionados///////////
+.resultadosButtonContainerBackground{
+  position: fixed;
+  bottom: 0;
+  z-index: 0; //0 => 250
+  width: 100vw;
+  background: $drk-baazap;
+  opacity: 0; //0 => 0.95
+  height: 90px;
+  .resultadosButtonContainer{
+    display: none;
+    position: fixed;
+    z-index: 250;
+    bottom: 3.898vh;
+    left: $big-margin;
+    width: $big-width;
+    height: 54px;
+    .textoResultados{
+      display: inline-block;
+      line-height: 54px;
+      color: $blanco;
+      span{
+        font-weight: 700;
+        margin-right: 5px;
+      }
+    }
+    .resultadosButton{
+      position: absolute;
+      right: 0;
+      display: inline-block;
+      width: 54px;
+      height: 54px;
+      border-radius: 50%;
+      background: $blanco;
+      img{
+        position: absolute;
+        top: 19px;
+        left: 24px;
+      }
+    }
+  }
+}

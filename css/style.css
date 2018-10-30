@@ -1,9 +1,9 @@
-/*====INDEX-Z=====*/
-/*===============*/
-/*====VARIABLES=====*/
-/*==================*/
-/*====GlOBALS=====*/
-/*================*/
+/*============================*/
+/*============================*/
+/*============================*/
+/*============================*/
+/*============================*/
+/*============================*/
 body {
   background: #48AEA7;
   font-family: "Poppins", sans-serif;
@@ -13,7 +13,9 @@ body {
 h1, h2, h3, p {
   margin: 0;
 }
-
+#animate {
+  position: absolute;
+}
 /* clears the 'X' from Internet Explorer */
 input[type=search]::-ms-clear,
 input[type=search]::-ms-reveal {
@@ -30,16 +32,947 @@ input[type=search]::-webkit-search-results-decoration {
   display: none;
 }
 
-/*====LAYOUT=====*/
-/*================*/
 .container {
-  width: 100vw;
   height: 100vh;
+  width: 100vw;
   background: #48AEA7;
 }
 
-/*====HOME=====*/
-/*=============*/
+/*!
+ * Generated with CSS Flag Sprite generator (https://www.flag-sprites.com/)
+ */
+.flag {
+  display: inline-block;
+  width: 48px;
+  height: 48px;
+  background-image: url("../imgs/flags.png");
+  background-repeat: no-repeat;
+}
+.flag .flag-pe {
+  background-position: -336px -480px;
+}
+
+/*Custom flags*/
+.flag.flag-es_ct {
+  background-position: -672px -672px;
+}
+
+.flag.flag-es_an {
+  background-position: -720px -672px;
+}
+
+.flag.flag-es_ar {
+  background-position: -1px -720px;
+}
+
+.flag.flag-es_as {
+  background-position: -49px -720px;
+}
+
+.flag.flag-es_cb {
+  background-position: -96px -720px;
+}
+
+.flag.flag-es_cm {
+  background-position: -145px -720px;
+}
+
+.flag.flag-es_cl {
+  background-position: -193px -720px;
+}
+
+.flag.flag-es_ce {
+  background-position: -242px -720px;
+}
+
+.flag.flag-es_ex {
+  background-position: -290px -720px;
+}
+
+.flag.flag-es_ga {
+  background-position: -336px -720px;
+}
+
+.flag.flag-es_ib {
+  background-position: -385px -720px;
+}
+
+.flag.flag-es_cn {
+  background-position: -433px -720px;
+}
+
+.flag.flag-es_ri {
+  background-position: -481px -720px;
+}
+
+.flag.flag-es_md {
+  background-position: -530px -720px;
+}
+
+.flag.flag-es_ml {
+  background-position: -579px -720px;
+}
+
+.flag.flag-es_mc {
+  background-position: -627px -720px;
+}
+
+.flag.flag-es_nc {
+  background-position: -674px -720px;
+}
+
+.flag.flag-es_pv {
+  background-position: -721px -720px;
+}
+
+.flag.flag-es_vc {
+  background-position: -1px -762px;
+}
+
+.flag.flag-aq {
+  background-position: -50px -762px;
+}
+
+.flag.flag-bq {
+  background-position: -98px -762px;
+}
+
+.flag.flag-bv {
+  background-position: -146px -762px;
+}
+
+.flag.flag-cc {
+  background-position: -194px -762px;
+}
+
+.flag.flag-gf {
+  background-position: -243px -762px;
+}
+
+.flag.flag-hm {
+  background-position: -290px -762px;
+}
+
+.flag.flag-um {
+  background-position: -338px -762px;
+}
+
+.flag.flag-md {
+  background-position: -386px -762px;
+}
+
+.flag.flag-re {
+  background-position: -433px -762px;
+}
+
+.flag.flag-pm {
+  background-position: -481px -762px;
+}
+
+.flag.flag-sx {
+  background-position: -531px -762px;
+}
+
+.flag.flag-sj {
+  background-position: -581px -762px;
+}
+
+.flag.flag-io {
+  background-position: -628px -762px;
+}
+
+.flag.flag-cx {
+  background-position: -676px -762px;
+}
+
+.flag.flag-do {
+  background-position: -384px -144px;
+}
+
+.flag.flag-us {
+  background-position: -624px -624px;
+}
+
+.flag.flag-gu {
+  background-position: -288px -240px;
+}
+
+.flag.flag-jo {
+  background-position: -480px -288px;
+}
+
+.flag.flag-mt {
+  background-position: -96px -432px;
+}
+
+.flag.flag-ru {
+  background-position: -288px -528px;
+}
+
+.flag.flag-nc {
+  background-position: -480px -432px;
+}
+
+.flag.flag-sk {
+  background-position: 0 -576px;
+}
+
+.flag.flag-ic {
+  background-position: -672px -240px;
+}
+
+.flag.flag-sh {
+  background-position: -672px -528px;
+}
+
+.flag.flag-gd {
+  background-position: -480px -192px;
+}
+
+.flag.flag-in {
+  background-position: -144px -288px;
+}
+
+.flag.flag-fj {
+  background-position: -144px -192px;
+}
+
+.flag.flag-sz {
+  background-position: -480px -576px;
+}
+
+.flag.flag-pg {
+  background-position: -432px -480px;
+}
+
+.flag.flag-wf {
+  background-position: -336px -672px;
+}
+
+.flag.flag-dj {
+  background-position: -240px -144px;
+}
+
+.flag.flag-gy {
+  background-position: -384px -240px;
+}
+
+.flag.flag-bg {
+  background-position: -240px -48px;
+}
+
+.flag.flag-hk {
+  background-position: -432px -240px;
+}
+
+.flag.flag-fi {
+  background-position: -96px -192px;
+}
+
+.flag.flag-cw {
+  background-position: -48px -144px;
+}
+
+.flag.flag-fk {
+  background-position: -192px -192px;
+}
+
+.flag.flag-ug {
+  background-position: -576px -624px;
+}
+
+.flag.flag-gh {
+  background-position: -624px -192px;
+}
+
+.flag.flag-dm {
+  background-position: -336px -144px;
+}
+
+.flag.flag-ao {
+  background-position: -384px 0;
+}
+
+.flag.flag-pa {
+  background-position: -288px -480px;
+}
+
+.flag.flag-bb {
+  background-position: -48px -48px;
+}
+
+.flag.flag-mo {
+  background-position: -624px -384px;
+}
+
+.flag.flag-by {
+  background-position: -48px -96px;
+}
+
+.flag.flag-lb {
+  background-position: -384px -336px;
+}
+
+.flag.flag-sy {
+  background-position: -432px -576px;
+}
+
+.flag.flag-vn {
+  background-position: -240px -672px;
+}
+
+.flag.flag-mm {
+  background-position: -528px -384px;
+}
+
+.flag.flag-cz {
+  background-position: -144px -144px;
+}
+
+.flag.flag-br {
+  background-position: -624px -48px;
+}
+
+.flag.flag-ne {
+  background-position: -528px -432px;
+}
+
+.flag.flag-bj {
+  background-position: -384px -48px;
+}
+
+.flag.flag-at {
+  background-position: -528px 0;
+}
+
+.flag.flag-pt {
+  background-position: 0 -528px;
+}
+
+.flag.flag-cr {
+  background-position: -672px -96px;
+}
+
+.flag.flag-tz {
+  background-position: -480px -624px;
+}
+
+.flag.flag-cv {
+  background-position: 0 -144px;
+}
+
+.flag.flag-ba {
+  background-position: 0 -48px;
+}
+
+.flag.flag-tv {
+  background-position: -384px -624px;
+}
+
+.flag.flag-ch {
+  background-position: -336px -96px;
+}
+
+.flag.flag-ki {
+  background-position: -720px -288px;
+}
+
+.flag.flag-mf {
+  background-position: -288px -384px;
+}
+
+.flag.flag-jp {
+  background-position: -528px -288px;
+}
+
+.flag.flag-bl {
+  background-position: -432px -48px;
+}
+
+.flag.flag-tg {
+  background-position: -672px -576px;
+}
+
+.flag.flag-bh {
+  background-position: -288px -48px;
+}
+
+.flag.flag-mc {
+  background-position: -144px -384px;
+}
+
+.flag.flag-am {
+  background-position: -288px 0;
+}
+
+.flag.flag-pf {
+  background-position: -384px -480px;
+}
+
+.flag.flag-la {
+  background-position: -336px -336px;
+}
+
+.flag.flag-no {
+  background-position: 0 -480px;
+}
+
+.flag.flag-kg {
+  background-position: -624px -288px;
+}
+
+.flag.flag-ad {
+  background-position: 0 0;
+}
+
+.flag.flag-ht {
+  background-position: -576px -240px;
+}
+
+.flag.flag-is {
+  background-position: -288px -288px;
+}
+
+.flag.flag-mh {
+  background-position: -384px -384px;
+}
+
+.flag.flag-ir {
+  background-position: -240px -288px;
+}
+
+.flag.flag-bo {
+  background-position: -576px -48px;
+}
+
+.flag.flag-pw {
+  background-position: -48px -528px;
+}
+
+.flag.flag-il {
+  background-position: -48px -288px;
+}
+
+.flag.flag-ky {
+  background-position: -240px -336px;
+}
+
+.flag.flag-eh {
+  background-position: -624px -144px;
+}
+
+.flag.flag-lt {
+  background-position: -672px -336px;
+}
+
+.flag.flag-ph {
+  background-position: -480px -480px;
+}
+
+.flag.flag-gq {
+  background-position: -96px -240px;
+}
+
+.flag.flag-tw {
+  background-position: -432px -624px;
+}
+
+.flag.flag-sl {
+  background-position: -48px -576px;
+}
+
+.flag.flag-ga {
+  background-position: -384px -192px;
+}
+
+.flag.flag-tj {
+  background-position: 0 -624px;
+}
+
+.flag.flag-ae {
+  background-position: -48px 0;
+}
+
+.flag.flag-md {
+  background-position: -192px -384px;
+}
+
+.flag.flag-lk {
+  background-position: -528px -336px;
+}
+
+.flag.flag-tf {
+  background-position: -624px -576px;
+}
+
+.flag.flag-co {
+  background-position: -624px -96px;
+}
+
+.flag.flag-tl {
+  background-position: -96px -624px;
+}
+
+.flag.flag-kn {
+  background-position: -48px -336px;
+}
+
+.flag.flag-me {
+  background-position: -240px -384px;
+}
+
+.flag.flag-af {
+  background-position: -96px 0;
+}
+
+.flag.flag-cl {
+  background-position: -480px -96px;
+}
+
+.flag.flag-om {
+  background-position: -240px -480px;
+}
+
+.flag.flag-ax {
+  background-position: -672px 0;
+}
+
+.flag.flag-hn {
+  background-position: -480px -240px;
+}
+
+.flag.flag-mw {
+  background-position: -240px -432px;
+}
+
+.flag.flag-hu {
+  background-position: -624px -240px;
+}
+
+.flag.flag-er {
+  background-position: -672px -144px;
+}
+
+.flag.flag-bt {
+  background-position: -720px -48px;
+}
+
+.flag.flag-an {
+  background-position: -336px 0;
+}
+
+.flag.flag-gg {
+  background-position: -576px -192px;
+}
+
+.flag.flag-gm {
+  background-position: 0 -240px;
+}
+
+.flag.flag-ai {
+  background-position: -192px 0;
+}
+
+.flag.flag-mp {
+  background-position: -672px -384px;
+}
+
+.flag.flag-mn {
+  background-position: -576px -384px;
+}
+
+.flag.flag-lu {
+  background-position: -720px -336px;
+}
+
+.flag.flag-ar {
+  background-position: -432px 0;
+}
+
+.flag.flag-vu {
+  background-position: -288px -672px;
+}
+
+.flag.flag-iq {
+  background-position: -192px -288px;
+}
+
+.flag.flag-zw {
+  background-position: -624px -672px;
+}
+
+.flag.flag-de {
+  background-position: -192px -144px;
+}
+
+.flag.flag-ws {
+  background-position: -384px -672px;
+}
+
+.flag.flag-nl {
+  background-position: -720px -432px;
+}
+
+.flag.flag-bz {
+  background-position: -96px -96px;
+}
+
+.flag.flag-za {
+  background-position: -528px -672px;
+}
+
+.flag.flag-na {
+  background-position: -432px -432px;
+}
+
+.flag.flag-ec {
+  background-position: -480px -144px;
+}
+
+.flag.flag-vc {
+  background-position: -48px -672px;
+}
+
+.flag.flag-nr {
+  background-position: -96px -480px;
+}
+
+.flag.flag-ci {
+  background-position: -384px -96px;
+}
+
+.flag.flag-ge {
+  background-position: -528px -192px;
+}
+
+.flag.flag-eu {
+  background-position: -48px -192px;
+}
+
+.flag.flag-nz {
+  background-position: -192px -480px;
+}
+
+.flag.flag-rw {
+  background-position: -336px -528px;
+}
+
+.flag.flag-gb {
+  background-position: -432px -192px;
+}
+
+.flag.flag-bm {
+  background-position: -480px -48px;
+}
+
+.flag.flag-lc {
+  background-position: -432px -336px;
+}
+
+.flag.flag-uy {
+  background-position: -672px -624px;
+}
+
+.flag.flag-my {
+  background-position: -336px -432px;
+}
+
+.flag.flag-th {
+  background-position: -720px -576px;
+}
+
+.flag.flag-lr {
+  background-position: -576px -336px;
+}
+
+.flag.flag-fr {
+  background-position: -336px -192px;
+}
+
+.flag.flag-ng {
+  background-position: -624px -432px;
+}
+
+.flag.flag-nf {
+  background-position: -576px -432px;
+}
+
+.flag.flag-au {
+  background-position: -576px 0;
+}
+
+.flag.flag-ma {
+  background-position: -96px -384px;
+}
+
+.flag.flag-pr {
+  background-position: -672px -480px;
+}
+
+.flag.flag-mx {
+  background-position: -288px -432px;
+}
+
+.flag.flag-ni {
+  background-position: -672px -432px;
+}
+
+.flag.flag-dk {
+  background-position: -288px -144px;
+}
+
+.flag.flag-qa {
+  background-position: -144px -528px;
+}
+
+.flag.flag-ua {
+  background-position: -528px -624px;
+}
+
+.flag.flag-ps {
+  background-position: -720px -480px;
+}
+
+.flag.flag-sr {
+  background-position: -240px -576px;
+}
+
+.flag.flag-bn {
+  background-position: -528px -48px;
+}
+
+.flag.flag-lv {
+  background-position: 0 -384px;
+}
+
+.flag.flag-kh {
+  background-position: -672px -288px;
+}
+
+.flag.flag-pn {
+  background-position: -624px -480px;
+}
+
+.flag.flag-mk {
+  background-position: -432px -384px;
+}
+
+.flag.flag-gs {
+  background-position: -192px -240px;
+}
+
+.flag.flag-bs {
+  background-position: -672px -48px;
+}
+
+.flag.flag-ms {
+  background-position: -48px -432px;
+}
+
+.flag.flag-dz {
+  background-position: -432px -144px;
+}
+
+.flag.flag-hr {
+  background-position: -528px -240px;
+}
+
+.flag.flag-fo {
+  background-position: -288px -192px;
+}
+
+.flag.flag-ve {
+  background-position: -96px -672px;
+}
+
+.flag.flag-cn {
+  background-position: -576px -96px;
+}
+
+.flag.flag-ie {
+  background-position: 0 -288px;
+}
+
+.flag.flag-al {
+  background-position: -240px 0;
+}
+
+.flag.flag-im {
+  background-position: -96px -288px;
+}
+
+.flag.flag-to {
+  background-position: -240px -624px;
+}
+
+.flag.flag-vi {
+  background-position: -192px -672px;
+}
+
+.flag.flag-mr {
+  background-position: 0 -432px;
+}
+
+.flag.flag-gw {
+  background-position: -336px -240px;
+}
+
+.flag.flag-st {
+  background-position: -336px -576px;
+}
+
+.flag.flag-cu {
+  background-position: -720px -96px;
+}
+
+.flag.flag-tc {
+  background-position: -528px -576px;
+}
+
+.flag.flag-ag {
+  background-position: -144px 0;
+}
+
+.flag.flag-ee {
+  background-position: -528px -144px;
+}
+
+.flag.flag-ca {
+  background-position: -144px -96px;
+}
+
+.flag.flag-gt {
+  background-position: -240px -240px;
+}
+
+.flag.flag-ye {
+  background-position: -432px -672px;
+}
+
+.flag.flag-es {
+  background-position: -720px -144px;
+}
+
+.flag.flag-tk {
+  background-position: -48px -624px;
+}
+
+.flag.flag-sm {
+  background-position: -96px -576px;
+}
+
+.flag.flag-et {
+  background-position: 0 -192px;
+}
+
+.flag.flag-tn {
+  background-position: -192px -624px;
+}
+
+.flag.flag-tm {
+  background-position: -144px -624px;
+}
+
+.flag.flag-li {
+  background-position: -480px -336px;
+}
+
+.flag.flag-mv {
+  background-position: -192px -432px;
+}
+
+.flag.flag-cm {
+  background-position: -528px -96px;
+}
+
+.flag.flag-ke {
+  background-position: -576px -288px;
+}
+
+.flag.flag-ml {
+  background-position: -480px -384px;
+}
+
+.flag.flag-sb {
+  background-position: -432px -528px;
+}
+
+.flag.flag-rs {
+  background-position: -240px -528px;
+}
+
+.flag.flag-sv {
+  background-position: -384px -576px;
+}
+
+.flag.flag-id {
+  background-position: -720px -240px;
+}
+
+.flag.flag-tr {
+  background-position: -288px -624px;
+}
+
+.flag.flag-se {
+  background-position: -576px -528px;
+}
+
+.flag.flag-mz {
+  background-position: -384px -432px;
+}
+
+.flag.flag-mq {
+  background-position: -720px -384px;
+}
+
+.flag.flag-bi {
+  background-position: -336px -48px;
+}
+
+.flag.flag-je {
+  background-position: -384px -288px;
+}
+
+.flag.flag-nu {
+  background-position: -144px -480px;
+}
+
+.flag.flag-ck {
+  background-position: -432px -96px;
+}
+
+.flag.flag-kz {
+  background-position: -288px -336px;
+}
+
+.flag.flag-mu {
+  background-position: -144px -432px;
+}
+
+.flag.flag-kw {
+  background-position: -192px -336px;
+}
+
+.flag.flag-gi {
+  background-position: -672px -192px;
+}
+
+.flag.flag-tt {
+  background-position: -336px -624px;
+}
+
+.flag.flag-km {
+  background-position: 0 -336px;
+}
+
+.flag.flag-gn {
+  background-position: -48px -240px;
+}
+
+.flag.flag-yt {
+  background-position: -480px -672px;
+}
+
 .logoContainerHome {
   padding-top: 20.239vh;
   margin: 0 auto;
@@ -51,11 +984,11 @@ input[type=search]::-webkit-search-results-decoration {
 
 .searchbarContainer {
   position: relative;
-  z-index: 200;
+  z-index: 500;
   top: 0;
   margin: 15.592vh 9.6vw 0;
   width: 80.8vw;
-  height: 59px;
+  height: 7vh;
   border-radius: 2px;
   background: #FFF;
 }
@@ -63,21 +996,22 @@ input[type=search]::-webkit-search-results-decoration {
   color: #242F3A;
 }
 .searchbarContainer input {
-  position: absolute;
-  left: 5.33vw;
+  position: relative;
+  left: 4vw;
   height: 100%;
   font-size: 4.8vw;
-  width: 61.6vw;
+  width: 67vw;
   outline: none;
   color: #242F3A;
   caret-color: #48AEA7;
+  border-width: 0px;
 }
 .searchbarContainer .searchIcon {
-  position: absolute;
-  top: 21px;
-  right: 5.33vw;
-  width: 17px;
-  height: 17px;
+  position: relative;
+  top: 1vh;
+  right: -4vw;
+  width: 4vw;
+  height: 4vh;
 }
 
 .textoDescripcion {
@@ -125,7 +1059,7 @@ input[type=search]::-webkit-search-results-decoration {
   width: 100vw;
   height: 123px;
   border-radius: 4px;
-  background: white;
+  background: #FFF;
 }
 .containerProfile .profileOptionsContainer .loginButton,
 .containerProfile .profileOptionsContainer .signupButton {
@@ -143,8 +1077,6 @@ input[type=search]::-webkit-search-results-decoration {
   margin: 0 auto;
 }
 
-/*====OVERLAT BUSCADOR TAGS=====*/
-/*==============================*/
 .buscadorOverlay {
   position: fixed;
   z-index: 0;
@@ -152,47 +1084,100 @@ input[type=search]::-webkit-search-results-decoration {
   right: 0;
   bottom: 0;
   left: 0;
-  width: 100vw;
   height: 100vh;
+  width: 100vw;
   background: #242F3A;
   opacity: 0;
 }
 
 .tagsBuscadorContainer {
   display: none;
-  position: fixed;
+  position: absolute;
   z-index: 200;
-  top: calc(13.943vh + 15px);
+  top: calc(13.943vh + 0vh);
   left: 9.6vw;
   width: 80.8vw;
+<<<<<<< HEAD
   min-height: 69.565vh;
+  margin-bottom: 110px;
+=======
+  height: 70vh;
+  //min-height: 69.565vh;
+  overflow:scroll;
+>>>>>>> d10693fa68f39af7f7c8ae496f8aa214b615dfd9
 }
 .tagsBuscadorContainer .tagCategoria,
 .tagsBuscadorContainer .tagProducto,
 .tagsBuscadorContainer .tagPais {
   position: relative;
   display: inline-block;
-  height: 49px;
+<<<<<<< HEAD
+  min-height: 42px;
+=======
+  height: 5vh;
+>>>>>>> d10693fa68f39af7f7c8ae496f8aa214b615dfd9
   background: #48AEA7;
   border-radius: 8px;
-  padding: 0 15px;
-  margin-top: 15px;
+  //padding: 0 15px;
+  //margin-top: 15px;
   border: 2px solid #48AEA7;
+  overflow: scroll;
 }
-.tagsBuscadorContainer .tagCategoria img,
-.tagsBuscadorContainer .tagProducto img,
-.tagsBuscadorContainer .tagPais img {
+<<<<<<< HEAD
+.tagsBuscadorContainer .tagCategoria .tagIconContainer,
+.tagsBuscadorContainer .tagProducto .tagIconContainer,
+.tagsBuscadorContainer .tagPais .tagIconContainer {
+  display: inline-block;
+  height: 100%;
+}
+.tagsBuscadorContainer .tagCategoria .tagIconContainer img,
+.tagsBuscadorContainer .tagProducto .tagIconContainer img,
+.tagsBuscadorContainer .tagPais .tagIconContainer img {
   width: 16px;
   height: 16px;
   transform: translateY(2px);
   padding-right: 13px;
+=======
+.tagsBuscadorContainer .tagCategoria img.tagIcon,
+.tagsBuscadorContainer .tagProducto img.tagIcon,
+.tagsBuscadorContainer .tagPais img.tagIcon {
+
+  //width: 4vw;
+  //height: 4vh;
+  transform: translateY(3px) scale(0.8);
+  //padding-right: 13px;
+>>>>>>> d10693fa68f39af7f7c8ae496f8aa214b615dfd9
 }
 .tagsBuscadorContainer .tagCategoria span,
-.tagsBuscadorContainer .tagProducto span,
-.tagsBuscadorContainer .tagPais span {
-  height: 49px;
-  line-height: 49px;
+.tagsBuscadorContainer .tagProducto span{
+  //padding-left: 4vw;
+  transform: translate(-4px,-4px);
+  height: 4vh;
+  //line-height: 25px;
+  width: 70vw;
   color: #FFF;
+  //overflow: hidden;
+  //white-space: nowrap;
+  //text-overflow: ellipsis;
+}
+
+.tagsBuscadorContainer .tagPais span {
+<<<<<<< HEAD
+  height: 42px;
+  line-height: 42px;
+=======
+  //position: absolute;
+  padding-left: 28px;
+  //padding-top: 4vh;
+  transform: translate(-4px,-4px);
+  height: 4vh;
+  //line-height: 25px;
+  width: 70vw;
+>>>>>>> d10693fa68f39af7f7c8ae496f8aa214b615dfd9
+  color: #FFF;
+  overflow: hidden;
+  //white-space: nowrap;
+  //text-overflow: ellipsis;
 }
 .tagsBuscadorContainer .tagCategoria .numeroCategoria,
 .tagsBuscadorContainer .tagProducto .numeroCategoria,
@@ -201,38 +1186,58 @@ input[type=search]::-webkit-search-results-decoration {
   font-weight: 700;
 }
 .tagsBuscadorContainer .tagProducto {
-  border-radius: 49px;
+  border-radius: 42px;
 }
 .tagsBuscadorContainer .tagProducto span {
-  padding-right: 15px;
+  //padding-right: 15px;
 }
-.tagsBuscadorContainer .tagPais img.banderaTag {
-  width: 28px;
+<<<<<<< HEAD
+.tagsBuscadorContainer .tagPais .banderaTag {
+  width: 29px;
   height: 19px;
-  transform: translateY(4px);
+  transform: translateY(5px);
   padding-left: 15px;
   padding-right: 0px;
+=======
+.tagsBuscadorContainer .tagPais div.banderaTag {
+  //max-height:24px;
+  //position: absolute;
+  //padding-top: 0px;
+  //padding-left: 0px;
+  //transform: translateY(-4px);
+  //padding-left: 15px;
+  //padding-right: 0px;
+>>>>>>> d10693fa68f39af7f7c8ae496f8aa214b615dfd9
 }
 
-.resultadosButtonContainer {
+.resultadosButtonContainerBackground {
+  position: fixed;
+  bottom: 0;
+  z-index: 0;
+  width: 100vw;
+  background: #242F3A;
+  opacity: 0;
+  height: 90px;
+}
+.resultadosButtonContainerBackground .resultadosButtonContainer {
   display: none;
   position: fixed;
-  z-index: 200;
+  z-index: 250;
   bottom: 3.898vh;
   left: 9.6vw;
   width: 80.8vw;
   height: 54px;
 }
-.resultadosButtonContainer .textoResultados {
+.resultadosButtonContainerBackground .resultadosButtonContainer .textoResultados {
   display: inline-block;
   line-height: 54px;
   color: #FFF;
 }
-.resultadosButtonContainer .textoResultados span {
+.resultadosButtonContainerBackground .resultadosButtonContainer .textoResultados span {
   font-weight: 700;
   margin-right: 5px;
 }
-.resultadosButtonContainer .resultadosButton {
+.resultadosButtonContainerBackground .resultadosButtonContainer .resultadosButton {
   position: absolute;
   right: 0;
   display: inline-block;
@@ -241,10 +1246,156 @@ input[type=search]::-webkit-search-results-decoration {
   border-radius: 50%;
   background: #FFF;
 }
-.resultadosButtonContainer .resultadosButton img {
+.resultadosButtonContainerBackground .resultadosButtonContainer .resultadosButton img {
   position: absolute;
   top: 19px;
   left: 24px;
+}
+
+<<<<<<< HEAD
+=======
+/*====RESULTADOS=====*/
+/*===================*/
+>>>>>>> d10693fa68f39af7f7c8ae496f8aa214b615dfd9
+.headerContainer {
+  position: relative;
+  padding-top: 3.598vh;
+  padding-bottom: 2.998vh;
+  width: 80.8vw;
+  height: 50px;
+  margin: 0 auto;
+  background: #48AEA7;
+}
+.headerContainer .logoHeader {
+  display: inline-block;
+  width: 123px;
+  transform: translateY(5px);
+}
+.headerContainer .profileButton {
+  position: absolute;
+  right: 65px;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background: #FFF;
+  border-radius: 50%;
+}
+.headerContainer .profileButton img {
+  position: absolute;
+  left: 16px;
+  top: 15px;
+}
+.headerContainer .searchButton {
+  position: absolute;
+  right: 0;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background: #FFF;
+  border-radius: 50%;
+}
+.headerContainer .searchButton img {
+  position: absolute;
+  left: 17px;
+  top: 17px;
+}
+
+.resultadosContainer {
+  width: 80.8vw;
+  min-height: 81.259vh;
+  margin: 0 auto;
+}
+.resultadosContainer .textoResultados {
+  color: #FFF;
+  font-size: 4.8vw;
+  text-align: center;
+}
+.resultadosContainer .textoResultados span {
+  font-weight: 700;
+  padding-right: 5px;
+}
+.resultadosContainer .tarjetaResultado {
+  box-sizing: border-box;
+  width: 275px;
+  padding: 20px;
+  background: #242F3A;
+  margin: 4vh auto;
+}
+.resultadosContainer .tarjetaResultado .productoContainer {
+  position: relative;
+  width: 235px;
+  height: 235px;
+  background: #FFF;
+}
+.resultadosContainer .tarjetaResultado .productoContainer img {
+  position: absolute;
+  display: block;
+  height: 160px;
+  top: 39px;
+  left: 37px;
+}
+.resultadosContainer .tarjetaResultado .nombreProducto {
+  font-size: 18px;
+  color: #FFF;
+  margin: 15px auto;
+  text-align: center;
+  font-weight: 700;
+}
+<<<<<<< HEAD
+=======
+.resultadosContainer .tarjetaResultado table {
+  width: 235px;
+  color: #FFF;
+  font-size: 14px;
+  line-height: 20px;
+}
+.resultadosContainer .tarjetaResultado table .primeraColumna {
+  font-weight: 700;
+}
+.resultadosContainer .tarjetaResultado table .segundaColumna {
+  text-align: right;
+}
+.resultadosContainer .tarjetaResultado table .terceraColumna {
+  text-align: right;
+}
+.resultadosContainer .tarjetaResultado table .terceraColumna img {
+  transform: translateY(1px);
+}
+>>>>>>> d10693fa68f39af7f7c8ae496f8aa214b615dfd9
+
+.sugerenciasContainer {
+  position: fixed;
+  margin: 0;
+  left: 0;
+  bottom: 0;
+  max-height: 188px;
+  min-width: 100vw;
+  background: #1E6775;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+.sugerenciasContainer .productoSugerenciaContainer {
+  display: inline-block;
+  width: 118px;
+  height: 133px;
+  background: white;
+  margin: 15px 0px 15px 15px;
+}
+.sugerenciasContainer .productoSugerenciaContainer .sugerenciaImagenContainer {
+  width: 100%;
+  height: 108px;
+}
+.sugerenciasContainer .productoSugerenciaContainer .sugerenciaImagenContainer img {
+  height: 75px;
+  margin: 50%;
+  transform: translate(-50%, -60%);
+}
+.sugerenciasContainer .productoSugerenciaContainer .nombreSugerencia {
+  font-size: 10px;
+  text-align: center;
+  width: 97px;
+  margin: 0 auto;
+  overflow-x: hidden;
 }
 
 /*# sourceMappingURL=style.css.map */
