@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="17px" height="10px" viewBox="0 0 17 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Resultado-Con-Boton-Para-Ocultar-Baazup" transform="translate(-339.000000, -494.000000)" fill="#FDFEFF">
+            <g id="007-arrow-point-to-right" transform="translate(347.500000, 499.000000) rotate(90.000000) translate(-347.500000, -499.000000) translate(343.000000, 491.000000)">
+                <g id="Capa_1">
+                    <path d="M8.66654651,8.78909735 L1.88909302,15.6663009 C1.45796512,16.104 0.758965116,16.104 0.328046512,15.6663009 C-0.102906977,15.2289912 -0.102906977,14.5197168 0.328046512,14.0824425 L6.32504651,7.99716814 L0.32822093,1.91210619 C-0.102732558,1.47461947 -0.102732558,0.765415929 0.32822093,0.328106195 C0.759174419,-0.109380531 1.45813953,-0.109380531 1.88926744,0.328106195 L8.66672093,7.20541593 C8.88219767,7.42417699 8.98981395,7.71058407 8.98981395,7.99713274 C8.98981395,8.28382301 8.88198837,8.57044248 8.66654651,8.78909735 L8.66654651,8.78909735 Z" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
