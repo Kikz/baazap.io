@@ -4,6 +4,8 @@
 /*============================*/
 /*============================*/
 /*============================*/
+/*============================*/
+/*============================*/
 body {
   background: #48AEA7;
   font-family: "Poppins", sans-serif;
@@ -45,9 +47,6 @@ input[type=search]::-webkit-search-results-decoration {
   height: 48px;
   background-image: url("../imgs/flags.png");
   background-repeat: no-repeat;
-}
-.flag .flag-pe {
-  background-position: -336px -480px;
 }
 
 /*Custom flags*/
@@ -183,48 +182,12 @@ input[type=search]::-webkit-search-results-decoration {
   background-position: -676px -762px;
 }
 
-.flag.flag-do {
-  background-position: -384px -144px;
-}
-
-.flag.flag-us {
-  background-position: -624px -624px;
-}
-
-.flag.flag-gu {
-  background-position: -288px -240px;
-}
-
-.flag.flag-jo {
-  background-position: -480px -288px;
-}
-
-.flag.flag-mt {
-  background-position: -96px -432px;
-}
-
-.flag.flag-ru {
-  background-position: -288px -528px;
-}
-
-.flag.flag-nc {
-  background-position: -480px -432px;
-}
-
-.flag.flag-sk {
-  background-position: 0 -576px;
-}
-
-.flag.flag-ic {
-  background-position: -672px -240px;
-}
-
-.flag.flag-sh {
-  background-position: -672px -528px;
-}
-
 .flag.flag-gd {
   background-position: -480px -192px;
+}
+
+.flag-pe {
+  background-position: -336px -480px;
 }
 
 .flag.flag-in {
@@ -1162,9 +1125,10 @@ input[type=search]::-webkit-search-results-decoration {
 }
 .resultadosButtonContainerBackground .resultadosButtonContainer {
   display: none;
-  position: fixed;
+  position: relative;
   z-index: 250;
-  bottom: 3.898vh;
+  top: 50%;
+  transform: translateY(-50%);
   left: 9.6vw;
   width: 80.8vw;
   height: 54px;
@@ -1239,7 +1203,7 @@ input[type=search]::-webkit-search-results-decoration {
 .resultadosContainer {
   width: 80.8vw;
   min-height: 81.259vh;
-  margin: 0 auto;
+  margin: 0 auto calc(188px + 40px);
 }
 .resultadosContainer .textoResultados {
   color: #FFF;
@@ -1277,40 +1241,80 @@ input[type=search]::-webkit-search-results-decoration {
   text-align: center;
   font-weight: 700;
 }
+.resultadosContainer .tarjetaResultado table {
+  width: 235px;
+  color: #FFF;
+  font-size: 14px;
+  line-height: 20px;
+}
+.resultadosContainer .tarjetaResultado table .primeraColumna {
+  font-weight: 700;
+}
+.resultadosContainer .tarjetaResultado table .segundaColumna {
+  text-align: right;
+}
+.resultadosContainer .tarjetaResultado table .terceraColumna {
+  text-align: right;
+}
+.resultadosContainer .tarjetaResultado table .terceraColumna .banderaTag {
+  width: 29px;
+  height: 19px;
+  transform: translateY(5px);
+  padding-left: 15px;
+  padding-right: 0px;
+}
 
 .sugerenciasContainer {
   position: fixed;
-  margin: 0;
+  right: 0;
   left: 0;
   bottom: 0;
   max-height: 188px;
-  min-width: 100vw;
   background: #1E6775;
   overflow-y: hidden;
   white-space: nowrap;
+  overflow-x: auto;
 }
-.sugerenciasContainer .productoSugerenciaContainer {
+.sugerenciasContainer .infoSugerenciasContainer {
+  position: fixed;
+  height: 20px;
+  width: 89.33333vw;
+  margin: 10px 5.33333vw 0;
+}
+.sugerenciasContainer .infoSugerenciasContainer h3 {
+  display: inline-block;
+  width: calc(89.33333vw - 22px);
+  color: #FFF;
+  font-size: 14px;
+  line-height: 20px;
+}
+.sugerenciasContainer .todosProductosContainer .productoSugerenciaContainer {
   display: inline-block;
   width: 118px;
   height: 133px;
   background: white;
-  margin: 15px 0px 15px 15px;
+  margin: 40px 0 15px 15px;
 }
-.sugerenciasContainer .productoSugerenciaContainer .sugerenciaImagenContainer {
+.sugerenciasContainer .todosProductosContainer .productoSugerenciaContainer .sugerenciaImagenContainer {
   width: 100%;
   height: 108px;
 }
-.sugerenciasContainer .productoSugerenciaContainer .sugerenciaImagenContainer img {
+.sugerenciasContainer .todosProductosContainer .productoSugerenciaContainer .sugerenciaImagenContainer img {
+  position: relative;
+  top: 50%;
+  left: 50%;
   height: 75px;
-  margin: 50%;
-  transform: translate(-50%, -60%);
+  transform: translate(-50%, -52.5%);
 }
-.sugerenciasContainer .productoSugerenciaContainer .nombreSugerencia {
+.sugerenciasContainer .todosProductosContainer .productoSugerenciaContainer .nombreSugerencia {
   font-size: 10px;
   text-align: center;
   width: 97px;
   margin: 0 auto;
   overflow-x: hidden;
+}
+.sugerenciasContainer .todosProductosContainer .productoSugerenciaContainer:last-of-type {
+  margin-right: 15px;
 }
 
 /*# sourceMappingURL=style.css.map */
