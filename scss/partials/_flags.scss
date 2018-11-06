@@ -8,9 +8,7 @@
     height: 48px;
     background-image: url('../imgs/flags.png');
     background-repeat: no-repeat;
-    .flag-pe {
-        background-position: -336px -480px;
-    }
+
 }
 /*Custom flags*/
 .flag.flag-es_ct{background-position: -672px -672px;}
@@ -207,51 +205,53 @@
 //     background-position: -384px -528px;
 // } saudi arabia 40
 
-.flag.flag-do {
-    background-position: -384px -144px;
-}
+// .flag.flag-do {
+//     background-position: -384px -144px;
+// } dominican republic 41
 
-.flag.flag-us {
-    background-position: -624px -624px;
-}
+// .flag.flag-us {
+//     background-position: -624px -624px;
+// } united states 42
 
-.flag.flag-gu {
-    background-position: -288px -240px;
-}
+// .flag.flag-gu {
+//     background-position: -288px -240px;
+// } guam 43
 
-.flag.flag-jo {
-    background-position: -480px -288px;
-}
+// .flag.flag-jo {
+//     background-position: -480px -288px;
+// } jordan 44
 
-.flag.flag-mt {
-    background-position: -96px -432px;
-}
+// .flag.flag-mt {
+//     background-position: -96px -432px;
+// } malta 45
 
-.flag.flag-ru {
-    background-position: -288px -528px;
-}
+// .flag.flag-ru {
+//     background-position: -288px -528px;
+// } russian federation 46
 
-.flag.flag-nc {
-    background-position: -480px -432px;
-}
+// .flag.flag-nc {
+//     background-position: -480px -432px;
+// } new caledonia 47 !!!!!!!!!!!!!!!!
 
-.flag.flag-sk {
-    background-position: 0 -576px;
-}
+// .flag.flag-sk {
+//     background-position: 0 -576px;
+// } slovakia 48
 
-.flag.flag-ic {
-    background-position: -672px -240px;
-}
+// .flag.flag-ic {
+//     background-position: -672px -240px;
+// } canary islands 49
 
-.flag.flag-sh {
-    background-position: -672px -528px;
-}
+// .flag.flag-sh {
+//     background-position: -672px -528px;
+// } Saint Helena, Ascension and Tristan da Cunha 50
 
 .flag.flag-gd {
     background-position: -480px -192px;
 }
 
-//FLAG PERU
+.flag-pe {
+    background-position: -336px -480px;
+}
 
 .flag.flag-in {
     background-position: -144px -288px;

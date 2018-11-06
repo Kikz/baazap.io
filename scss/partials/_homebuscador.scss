@@ -65,11 +65,7 @@
   }
   .tagPais{
     .banderaTag{
-      width: 29px;
-      height: 19px;
-      transform: translateY(5px);
-      padding-left: 15px;
-      padding-right: 0px;
+      @include flagStyle;
     }
   }
 }
@@ -86,9 +82,11 @@
   height: 90px;
   .resultadosButtonContainer{
     display: none;
-    position: fixed;
+    position: relative;
     z-index: 250;
-    bottom: 3.898vh;
+    // bottom: 3.898vh;
+    top: 50%;
+    transform: translateY(-50%);
     left: $big-margin;
     width: $big-width;
     height: 54px;

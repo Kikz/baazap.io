@@ -8,6 +8,15 @@
 // 250: resultadosButtonContainer
 // 500: Buscador
 
+/*============================*/
+// FONT WEIGHT
+/*============================*/
+
+// 400: light
+// 500: Medium
+// 700: Bold
+// 900: Black
+
 
 /*============================*/
 // VARIABLES
@@ -39,4 +48,12 @@ $tag-height: 42px;
 @mixin fullScreen {
   height: 100vh;
   width: 100vw;
+}
+
+@mixin flagStyle {
+  width: 29px;
+  height: 19px;
+  transform: translateY(5px);
+  padding-left: 15px;
+  padding-right: 0px;
 }
