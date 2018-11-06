@@ -6,11 +6,8 @@
 //Una vez click en input[id="inputBuscador"] cambiar al estado
 const unhideSearchbarMenu = new TimelineMax({paused:true});
 
-unhideSearchbarMenu
-  //Aplicar overlay azul oscuro
-  .to(".buscadorOverlay", 0.4, { zIndex: "200", opacity: "0.95", ease:Sine.easeOut })
+unhideSearchbarMenu.to(".buscadorOverlay", 0.4, { zIndex: "200", opacity: "0.95", ease:Sine.easeOut })
   .to(".resultadosButtonContainerBackground", 0.4, { zIndex: "250", opacity: "0.95", ease:Sine.easeOut })
-  //Animacion de buscador a parte superior
   .to(".searchbarContainer", 0.5, { top: "-37.931vh", ease:Sine.easeOut }).delay(-0.1)
   //Enseñar tags resultados
   .to(".tagsBuscadorContainer", 0.4, { display: "block",  ease:Sine.easeOut });
@@ -19,16 +16,16 @@ function unhideSearchBarFunction (){
   this.removeEventListener("click",unhideSearchBarFunction );
   //this.addEventListener("click",function (){this.focus();});
   unhideSearchbarMenu.play();
-  this.addEventListener("oninput",mySearch(this.value) );
+  // this.addEventListener("oninput",mySearch(this.value) );
 }
 
 document.querySelector("#inputBuscador").addEventListener("click", unhideSearchBarFunction);
 
-function mySearch(value){
-	if (value.length>2){
-    fillCountries(value);
-  }
-}
+// function mySearch(value){
+// 	if (value.length>2){
+//     fillCountries(value);
+//   }
+// }
 
 
 
